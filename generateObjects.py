@@ -15,7 +15,7 @@ coma=", "
 comilla="\""
 LODDistance=50
 margin=0.02
-fileName="StaticObjects"
+fileName="Scene_01_static_objects"
 
 for l in superlist:
     dic=load.format_name_num(l[0])
@@ -23,8 +23,8 @@ for l in superlist:
     ts+="HLodDynamicObject("
     ts+=comilla+dic["name"]+comilla +coma
     ts+=scene+coma
-    ts+="visibleLODsDict="+str({dic["egg"]:(0,LODDistance),
-                               dic["LOD1"]:(LODDistance,1000)} )+coma
+    ts+="visibleLODsDict="+str({dic["egg"]:(LODDistance,0),
+                               dic["LOD1"]:(10000,LODDistance)} )+coma
     ts+="collisionEgg="+comilla+dic["collision"]+comilla+coma
     ts+="x0="+str(l[1])+coma
     ts+="y0="+str(l[2])+coma
@@ -38,4 +38,4 @@ for l in superlist:
 fileOb=open(fileName+".py","wt")
 fileOb.write(final)
 fileOb.close()
-print "DONE!"
+print "DONE! ",time.strftime("%d-%m-%y- %H:%M:%S")
