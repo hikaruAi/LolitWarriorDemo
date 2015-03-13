@@ -285,7 +285,7 @@ class HLodDynamicObject(NodePath):
                  directRender=True, convex=True):
         self.name = name
         self.scene = scene
-        NodePath.__init__(LODNode(name+"_LODNode"))
+        NodePath.__init__(self,LODNode(name+"_LODNode"))
         ###LOD###
         for k in visibleLODsDict.keys():
             v=base.loader.loadModel(k)
