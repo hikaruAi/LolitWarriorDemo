@@ -1,0 +1,819 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "egg-trans -tbnall -o 'C:\Users\Juan\Recursos\Programacion\python\RobotSphere\3d\axis.egg' 'C:\Users\Juan\Recursos\Programacion\python\RobotSphere\3d\axis.egg'"
+}
+<Material> Axis {
+  <Scalar> diffr { 0.64 }
+  <Scalar> diffg { 0.64 }
+  <Scalar> diffb { 0.64 }
+  <Scalar> emitr { 0 }
+  <Scalar> emitg { 0 }
+  <Scalar> emitb { 0 }
+  <Scalar> specr { 0.5 }
+  <Scalar> specg { 0.5 }
+  <Scalar> specb { 0.5 }
+  <Scalar> shininess { 12.5 }
+}
+<Group> Axis {
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+    }
+  }
+  <VertexPool> Axis {
+    <Vertex> 0 {
+      -0.0672311 0.0897978 0
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 1 {
+      -0.0672311 0.269394 0
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 2 {
+      0.0672311 0.269394 0
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 3 {
+      0.0672311 0.0897978 0
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 4 {
+      -0.0672311 -0.269394 0
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 5 {
+      -0.0672311 -0.0897978 0
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 6 {
+      0.0672311 -0.0897978 0
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 7 {
+      0.0672311 -0.269394 0
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 8 {
+      0.462187 0.0897978 0
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 9 {
+      0.462187 -0.0897978 0
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 10 {
+      -0.0672311 0.0897978 0.10322
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 11 {
+      0.0672311 0.0897978 0.10322
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 12 {
+      0.0672311 0.269394 0.10322
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 13 {
+      -0.0672311 0.269394 0.10322
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 14 {
+      -0.0672311 -0.269394 0.10322
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 15 {
+      0.0672311 -0.269394 0.10322
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 16 {
+      0.0672311 -0.0897978 0.10322
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 17 {
+      -0.0672311 -0.0897978 0.10322
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 18 {
+      -0.0672311 -0.0897978 0.283793
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 19 {
+      -0.0672311 0.0897978 0.283793
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 20 {
+      0.462187 -0.0897978 0.10322
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 21 {
+      0.462187 0.0897978 0.10322
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 22 {
+      0.0672311 -0.0897978 0.283793
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 23 {
+      0.0672311 0.0897978 0.283793
+      <RGBA> { 1 0.25098 0.839216 1 }
+    }
+    <Vertex> 24 {
+      -0.0271408 0.00584596 0.438997
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 25 {
+      -0.0271408 0.116965 0.462207
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 26 {
+      -0.0271408 0.00584596 0.462207
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 27 {
+      -0.0271408 0.0719953 0.438997
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 28 {
+      -0.0271408 0.0476245 0.355149
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 29 {
+      -0.0271408 0.00294468 0.331939
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 30 {
+      -0.0271408 0.117255 0.355149
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 31 {
+      -0.0271408 0.117255 0.331939
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 32 {
+      0.537649 0.0696759 0
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 33 {
+      0.515309 0.133794 0
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 34 {
+      0.482815 0.133794 0
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 35 {
+      0.553896 0.0891145 0
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 36 {
+      0.624107 0.133794 0
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 37 {
+      0.591033 0.133794 0
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 38 {
+      0.570434 0.0696759 0
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 39 {
+      0.482815 0.00352657 0
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 40 {
+      0.553896 0.0502373 0
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 41 {
+      0.627879 0.00352657 0
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 42 {
+      0.515309 0.00352657 0
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 43 {
+      0.594804 0.00352657 0
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 44 {
+      -0.0143915 0.478951 0
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 45 {
+      -0.0355709 0.581366 0
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 46 {
+      -0.0648738 0.581366 0
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 47 {
+      -0.000465304 0.507964 0
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 48 {
+      0.0622024 0.581366 0
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 49 {
+      0.0331896 0.581366 0
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 50 {
+      -0.0300584 0.384369 0
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 51 {
+      -0.0587811 0.384369 0
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 52 {
+      -0.0371408 0.00584596 0.438997
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 53 {
+      -0.0371408 0.00584596 0.462207
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 54 {
+      -0.0371408 0.116965 0.462207
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 55 {
+      -0.0371408 0.0719953 0.438997
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 56 {
+      -0.0371408 0.0476245 0.355149
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 57 {
+      -0.0371408 0.00294468 0.331939
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 58 {
+      -0.0371408 0.117255 0.355149
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 59 {
+      -0.0371408 0.117255 0.331939
+      <RGBA> { 0.105882 0.070588 1 1 }
+    }
+    <Vertex> 60 {
+      0.537649 0.0696759 -0.01
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 61 {
+      0.482815 0.133794 -0.01
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 62 {
+      0.515309 0.133794 -0.01
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 63 {
+      0.553896 0.0891145 -0.01
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 64 {
+      0.591033 0.133794 -0.01
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 65 {
+      0.624107 0.133794 -0.01
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 66 {
+      0.570434 0.0696759 -0.01
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 67 {
+      0.482815 0.00352657 -0.01
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 68 {
+      0.553896 0.0502373 -0.01
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 69 {
+      0.627879 0.00352657 -0.01
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 70 {
+      0.515309 0.00352657 -0.01
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 71 {
+      0.594804 0.00352657 -0.01
+      <RGBA> { 1 0 0 1 }
+    }
+    <Vertex> 72 {
+      -0.0143915 0.478951 -0.01
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 73 {
+      -0.0648738 0.581366 -0.01
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 74 {
+      -0.0355709 0.581366 -0.01
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 75 {
+      -0.000465304 0.507964 -0.01
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 76 {
+      0.0331896 0.581366 -0.01
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 77 {
+      0.0622024 0.581366 -0.01
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 78 {
+      -0.0300584 0.384369 -0.01
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+    <Vertex> 79 {
+      -0.0587811 0.384369 -0.01
+      <RGBA> { 0.298039 1 0.05098 1 }
+    }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 0 1 2 3 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 4 5 6 7 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 5 0 3 6 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 3 8 9 6 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 10 11 12 13 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 14 15 16 17 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 10 17 18 19 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 11 16 20 21 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 3 11 21 8 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 -1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 7 15 14 4 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 6 16 15 7 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 8 21 20 9 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 5 17 10 0 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 4 14 17 5 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 0 10 13 1 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 1 13 12 2 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 -1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 9 20 16 6 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 2 12 11 3 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 18 22 23 19 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 11 10 19 23 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 -1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 17 16 22 18 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 16 11 23 22 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 24 25 26 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 24 27 25 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 27 28 25 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 29 28 27 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 29 30 28 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 29 31 30 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 32 33 34 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 32 35 33 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 35 36 37 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 35 38 36 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 32 38 35 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 39 38 32 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 39 40 38 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 40 41 38 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 39 42 40 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 43 41 40 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 44 45 46 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 44 47 45 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 47 48 49 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 47 50 48 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 44 50 47 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 51 50 44 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 52 53 54 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 52 54 55 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 55 54 56 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 57 55 56 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 57 56 58 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -1 0 0 }
+    <MRef> { Axis }
+    <VertexRef> { 57 58 59 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 60 61 62 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 60 62 63 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 63 64 65 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 63 65 66 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 60 63 66 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 67 60 66 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 67 66 68 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 68 66 69 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 67 68 70 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 71 68 69 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 72 73 74 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 72 74 75 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 75 76 77 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 75 77 78 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 72 75 78 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 79 72 78 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 49 48 77 76 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -0.896954 -0.442124 0 }
+    <MRef> { Axis }
+    <VertexRef> { 44 46 73 72 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -0.752287 -0.658835 0 }
+    <MRef> { Axis }
+    <VertexRef> { 43 40 68 71 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0.756823 0.65362 0 }
+    <MRef> { Axis }
+    <VertexRef> { 33 35 63 62 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 -1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 50 51 79 78 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -0.909008 0.416778 0 }
+    <MRef> { Axis }
+    <VertexRef> { 47 49 76 75 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 46 45 74 73 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0.755033 0.655686 0 }
+    <MRef> { Axis }
+    <VertexRef> { 38 41 69 66 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 27 24 52 55 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 37 36 65 64 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0.839326 -0.543629 }
+    <MRef> { Axis }
+    <VertexRef> { 25 28 56 54 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 -0.840364 0.542023 }
+    <MRef> { Axis }
+    <VertexRef> { 29 27 55 57 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -0.76988 0.638189 0 }
+    <MRef> { Axis }
+    <VertexRef> { 39 32 60 67 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 -1 }
+    <MRef> { Axis }
+    <VertexRef> { 31 29 57 59 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -0.905259 0.424861 0 }
+    <MRef> { Axis }
+    <VertexRef> { 51 44 72 79 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0.902134 0.431456 0 }
+    <MRef> { Axis }
+    <VertexRef> { 45 47 75 74 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 -1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 41 43 71 69 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 -1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 42 39 67 70 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0.770962 -0.636881 0 }
+    <MRef> { Axis }
+    <VertexRef> { 40 42 70 68 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 30 31 59 58 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0.905603 -0.424126 0 }
+    <MRef> { Axis }
+    <VertexRef> { 48 50 78 77 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 26 25 54 53 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -0.769039 0.639201 0 }
+    <MRef> { Axis }
+    <VertexRef> { 35 37 64 63 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <MRef> { Axis }
+    <VertexRef> { 28 30 58 56 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 34 33 62 61 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0.766798 -0.641889 0 }
+    <MRef> { Axis }
+    <VertexRef> { 36 38 66 65 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { 0 -1 0 }
+    <MRef> { Axis }
+    <VertexRef> { 24 26 53 52 <Ref> { Axis } }
+  }
+  <Polygon> {
+    <Normal> { -0.759985 -0.649941 0 }
+    <MRef> { Axis }
+    <VertexRef> { 32 34 61 60 <Ref> { Axis } }
+  }
+}

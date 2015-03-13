@@ -1,0 +1,28 @@
+<CoordinateSystem> { Z-up } 
+  <Group> lake_colliison_04 {
+    <Transform> {
+      <Matrix4> {
+        1.0 0.0 0.0 0.0 
+        0.0 0.9999999403953552 0.0 0.0 
+        0.0 0.0 1.0 0.0 
+        0.0 0.0 0.0 1.0 
+      }
+    }
+    
+    <VertexPool> lake_colliison_04 {
+    
+      <Vertex> 0 {-19.565447 -19.565445 0.000000
+      }
+      <Vertex> 1 {19.565447 -19.565445 0.000000
+      }
+      <Vertex> 2 {19.565447 19.565445 0.000000
+      }
+      <Vertex> 3 {-19.565447 19.565445 0.000000
+      }}
+    
+    
+    <Polygon> {
+      <Normal> {0.000000 0.000000 1.000000}
+      <VertexRef> { 0 1 2 3 <Ref> { lake_colliison_04 }} 
+    }
+  }

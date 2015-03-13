@@ -1,0 +1,68 @@
+<CoordinateSystem> { Z-up } 
+<Material> Water {
+  <Scalar> diffr { 0.640000 }
+  <Scalar> diffg { 0.640000 }
+  <Scalar> diffb { 0.640000 }
+  <Scalar> specr { 0.500000 }
+  <Scalar> specg { 0.500000 }
+  <Scalar> specb { 0.500000 }
+  <Scalar> shininess { 12.5 }
+  <Scalar> emitr { 0.000000 }
+  <Scalar> emitg { 0.000000 }
+  <Scalar> emitb { 0.000000 }
+}
+
+<Texture> kawaii_water_01.png {
+  "./tex/kawaii_water_01.png"
+  <Scalar> envtype { MODULATE }
+}
+
+  <Group> lake_02 {
+    <Transform> {
+      <Matrix4> {
+        1.000000 0.000000 0.000000 0.000000 
+        0.000000 1.000000 0.000000 0.000000 
+        0.000000 0.000000 1.000000 0.000000 
+        0.000000 0.000000 0.000000 1.000000 
+      }
+    }
+    
+    <VertexPool> lake_02 {
+    
+      <Vertex> 0 {
+        -18.026145935058594 -18.026147842407227 0.0
+        
+        <UV>  {
+          0.500000 26.533306
+        }
+      }
+      <Vertex> 1 {
+        18.026145935058594 -18.026147842407227 0.0
+        
+        <UV>  {
+          0.500000 0.500000
+        }
+      }
+      <Vertex> 2 {
+        18.026145935058594 18.026147842407227 0.0
+        
+        <UV>  {
+          26.533306 0.500000
+        }
+      }
+      <Vertex> 3 {
+        -18.026145935058594 18.026147842407227 0.0
+        
+        <UV>  {
+          26.533306 26.533306
+        }
+      }}
+    
+    
+    <Polygon> {
+      <TRef> { kawaii_water_01.png }
+      <MRef> { Water }
+      <Normal> {0.000000 0.000000 1.000000}
+      <VertexRef> { 0 1 2 3 <Ref> { lake_02 }}
+    }
+  }

@@ -1,0 +1,66 @@
+<CoordinateSystem> { Z-up } 
+<Material> Water {
+  <Scalar> diffr { 0.640000 }
+  <Scalar> diffg { 0.640000 }
+  <Scalar> diffb { 0.640000 }
+  <Scalar> specr { 0.500000 }
+  <Scalar> specg { 0.500000 }
+  <Scalar> specb { 0.500000 }
+  <Scalar> shininess { 12.5 }
+  <Scalar> ambr { 1.000000 }
+  <Scalar> ambg { 1.000000 }
+  <Scalar> ambb { 1.000000 }
+  <Scalar> emitr { 0.000000 }
+  <Scalar> emitg { 0.000000 }
+  <Scalar> emitb { 0.000000 }
+}
+
+<Texture> UVMap_kawaii_water_01.png {
+  "./tex/kawaii_water_01.png"
+  <Scalar> envtype { MODULATE }
+  <Scalar> minfilter { LINEAR_MIPMAP_LINEAR }
+  <Scalar> magfilter { LINEAR_MIPMAP_LINEAR }
+  <Scalar> wrap { REPEAT }
+}
+
+  <Group> lake_01 {
+    <Transform> {
+      <Matrix4> {
+        1.0 0.0 0.0 0.0 
+        0.0 1.0 0.0 0.0 
+        0.0 0.0 1.0 0.0 
+        0.0 0.0 0.0 1.0 
+      }
+    }
+    
+    <VertexPool> lake_01 {
+    
+      <Vertex> 0 {-18.026146 -18.026148 0.000000
+        <UV>  {
+          0.5 0.5 
+        }
+      }
+      <Vertex> 1 {18.026146 -18.026148 0.000000
+        <UV>  {
+          0.5 -25.533306121826172 
+        }
+      }
+      <Vertex> 2 {18.026146 18.026148 0.000000
+        <UV>  {
+          26.533306121826172 -25.533306121826172 
+        }
+      }
+      <Vertex> 3 {-18.026146 18.026148 0.000000
+        <UV>  {
+          26.533306121826172 0.5 
+        }
+      }}
+    
+    
+    <Polygon> {
+      <TRef> { UVMap_kawaii_water_01.png }
+      <MRef> { Water }
+      <Normal> {0.000000 0.000000 1.000000}
+      <VertexRef> { 0 1 2 3 <Ref> { lake_01 }} 
+    }
+  }
