@@ -1,10 +1,10 @@
 from HPanda.HScene import HScene
 
 ##################
-from panda3d.core import loadPrcFileData
+from panda3d.core import loadPrcFileData, TextureStage
 
 ####3
-import StaticObjects
+import Scene_01_static_objects
 
 assets="3d/"
 windowTitle = "LolitaWarrior -DEMO-"
@@ -37,3 +37,22 @@ if pystats:
 class Scene1(HScene):
     def __init__(self,base):
         HScene.__init__(self,base)
+        self.debugDrawing=debugPhysics
+        self.setPhysics()
+        self.setStatics()
+        self.setCamera()
+        self.n=0
+        self.Base.taskMgr.add(self._loop,"Scene1_loop")
+    def _loop(self,t):
+        ta=t.time*0.2
+        self.lake_01.setTexOffset(TextureStage.getDefault(), ta/2,ta)
+        self.lake_02.setTexOffset(TextureStage.getDefault(), ta/2,ta)
+        self.lake_03.setTexOffset(TextureStage.getDefault(), ta/2,ta)
+        self.lake_04.setTexOffset(TextureStage.getDefault(), ta/2,ta)
+        #print self.n
+        return t.cont
+    def setCamera(self):
+        self.Base.camLens.setNearFar(1, 110)
+    def setStatics(self):
+        Scene_01_static_objects.setup(self)
+
