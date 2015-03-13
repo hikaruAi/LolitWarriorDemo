@@ -16,7 +16,7 @@ def format_name_num(s,eggFolder="3d"):
         d={"name":s,
            "egg":folder+s,
             "LOD1":folder+name+sep+num+sep+"LOD1",
-            "collision":folder+name+sep+"colliison"+sep+num}
+            "collision":folder+name+sep+"collision"+sep+num}
         #print d
         return d
     except:
